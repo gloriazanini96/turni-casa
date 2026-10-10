@@ -10,14 +10,21 @@ App per la rotazione settimanale delle pulizie tra **Gloria**, **Sofia** ed **El
 
 Ogni settimana le assegnazioni ruotano di una zona. L’ancora della rotazione è la settimana **5–11 ottobre 2026**.
 
-## Avvio
+## Avvio locale
 
 ```bash
 npm install
-npm run dev -- --port 43127
+npm run dev
 ```
 
 Apri [http://127.0.0.1:43127](http://127.0.0.1:43127).
+
+## Pubblicare su Vercel (condividere il link)
+
+1. Metti il codice su un repo GitHub del tuo account personale.
+2. Vai su [vercel.com](https://vercel.com) → **Continue with Google** (`gloriazanini96@gmail.com`).
+3. **Add New… → Project** → importa il repo → **Deploy**.
+4. Copia l’URL (es. `https://turni-casa.vercel.app`) e mandalo alle coinquiline.
 
 ## Funzioni
 
